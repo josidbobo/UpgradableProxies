@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\OKORO JOSHUA\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @openzeppelin/hardhat-upgrades
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\OKORO JOSHUA\bin;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Users\OKORO JOSHUA\Downloads\gradle-5.4.1-all\gradle-5.4.1\bin;C:\Users\OKORO JOSHUA\Downloads\flutter_windows_2.5.3-stable\flutter\bin;C:\Users\OKORO JOSHUA\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\OKORO JOSHUA\Downloads\gradle-5.4.1-all\gradle-5.4.1\bin;C:\Program Files\IBM\Cloud\bin;C:\Users\OKORO JOSHUA\AppData\Local\Microsoft\WindowsApps;C:\Users\OKORO JOSHUA\AppData\Roaming\npm;C:\Users\OKORO JOSHUA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\OKORO JOSHUA\.dotnet\tools;C:\Users\OKORO JOSHUA\AppData\Local\Programs\Python\Python38;C:\Users\OKORO JOSHUA\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\OKORO JOSHUA\Downloads\flutter_windows_2.5.3-stable\flutter\bin;C:\Users\OKORO JOSHUA\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\OKORO JOSHUA\AppData\Local\Yarn\Cache\v6\npm-bs58-4.0.1-be161e76c354f6f788ae4071f63f34e8c4f0a42a-integrity\node_modules\bs58\package.json' -> 'C:\Users\OKORO JOSHUA\Desktop\Dapps\Smart Contracts Projects\UpgradableProxies\node_modules\bs58\package.json'
+
+npm manifest: 
+  {
+    "name": "upgradableproxies",
+    "version": "1.0.0",
+    "description": "A smart contract implementation of Upgradeability",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "",
+    "license": "GPL-3.0",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.6",
+      "@nomiclabs/hardhat-waffle": "^2.0.3",
+      "chai": "^4.3.6",
+      "ethereum-waffle": "^3.4.4",
+      "ethers": "^5.6.8",
+      "hardhat": "^2.9.9"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
