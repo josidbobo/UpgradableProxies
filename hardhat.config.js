@@ -18,8 +18,8 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
  * @type import('hardhat/config').HardhatUserConfig
  */
 
-const RINKEBY_RPC_URL = process.env.RINKEBY_RPC_URL
-const PRIVATE_kEY = process.env.PRIVATE_kEY
+const RINKEBY_RPC_URL = 'https://rinkeby.infura.io/v3/d8c41f5cd4734986baa22c622094de7e'
+const PRIVATE_kEY = ''
 
 module.exports = {
   solidity: "0.8.4",
@@ -27,11 +27,11 @@ module.exports = {
     sources: "./contracts",
     tests: "./test",
   },
-  // defaultNetwork: "rinkeby",  
-  // networks: {
-  //   rinkeby:{
-  //     url: RINKEBY_RPC_URL,
-  //     accounts: [PRIVATE_kEY]
-  //   }
-  // }
+  defaultNetwork: "rinkeby",  
+  networks: {
+    rinkeby:{
+      url: RINKEBY_RPC_URL,
+      accounts: [PRIVATE_kEY]
+    }
+  }
 };
