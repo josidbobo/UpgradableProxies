@@ -4,12 +4,6 @@ This project is an upgradable contracts practice project that describes the upgr
 
 This project also demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-npx hardhat
-create basic sample project
-npm install --save-dev hardhat@^2.0.9 @nomiclabs/hardhat-waffle@^2.0.0 ethereum-waffle@^3.0.0 chai@^4.2.0 @nomiclabs/hardhat-ethers@^2.0.0 ethers@^5.0.0 
-npx install --save-dev hardhat
-npm add @openzeppelin/hardhat-upgrades
-
 Try running some of the following tasks:
 
 ```shell

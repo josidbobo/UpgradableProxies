@@ -13,7 +13,7 @@ describe("Box (proxy) ", function () {
   it("Retrieve returns a value previously initialised", async function () {
     // Test if the return value is the same one
     // Comparing them using strings
-    expect((await box.retrieve()).to.string()).to.equal("42");
+    expect(await box.retrieve()).to.equal(42);
 
   });
 });
