@@ -1,4 +1,4 @@
-# Instantiating a proxy projects
+# Instantiating a proxy project
 
 1. npx hardhat
 2. create basic sample project
