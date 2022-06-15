@@ -1,8 +1,7 @@
-# Basic Sample Hardhat Project
+## Transparent Upgradeable Contracts Practice Project
 
-This project is an upgradable contracts practice project that describes the upgradability of a smart contract using the Transparent proxy system from openzeppelin.
+This project is an proxy contract, implementation practice project that describes the upgradability of a smart contract using the Transparent proxy system from openzeppelin.
 
-This project also demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
 Try running some of the following tasks:
 
