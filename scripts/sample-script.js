@@ -18,7 +18,7 @@ async function main() {
   // await box.deployed();
 
   // console.log("Box deployed to:", box.address);
-}
+} 
 
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.

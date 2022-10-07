@@ -2,6 +2,7 @@ require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-ethers");
 require("@openzeppelin/hardhat-upgrades");
 
+
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
 task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
@@ -26,12 +27,12 @@ module.exports = {
   paths:{
     sources: "./contracts",
     tests: "./test",
-  },
-  defaultNetwork: "rinkeby",  
+  }, 
   networks: {
-    rinkeby:{
-      url: RINKEBY_RPC_URL,
-      accounts: [PRIVATE_kEY]
+    evmos:{
+      url: 'https://eth.bd.evmos.dev:8545',
+      accounts: ['e9e8c5efc5278d03040a39da17d636f242306690ea673bf7b45eaf9e0c2ba917']
     }
+
   }
 };
